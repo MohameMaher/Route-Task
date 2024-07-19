@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+a,a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* Shared classes */
+.shared{
+    text-align: center;
+}
+/*Nav bar*/
+div.nav-bar{padding: 45px; 
+
+}
+.navbar-logo h2{
+    float: left ;
+    margin:0 20px;
+}
+div.home div.nav-bar div.navbar-link ul{
+    list-style: none ;
+}
+div.home div.nav-bar div.navbar-link ul li{
+    float: left;
+    margin: 0 20px;
+    padding-inline: 20px; 
+}
+div.home div.nav-bar div.navbar-link{
+   float: right;
+   font-size: 30px;
+ 
+}
+ div.navbar-logo h2{
+    color:white ;
+}
+/* home section*/
+div.home{
+height: 100vh;
+
+background-image: url("./bg-food-min.jpg");
+background-size: cover;
+
+}
+div.home div.home-layer{
+    background-color: rgba(0, 0, 0, 0.397);
+    overflow: auto;
+    height: 100%;
+   
+}
+div.home div.home-layer div.home-content p {
+    color: white ;
+}
+div.home .home-content h1
+{
+    font-size: 60px;
+    color: orange ;
+    margin-block: 15px;
+}
+div.home .home-content{
+    text-align: center;
+    margin-top: 300px;
+    
+}
+div.home .home-content button {
+    padding: 15px 30px;
+    border-radius: 1000px;
+    background-color: white;
+    border: 3px solid orange;
+}
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* menu item */
+.menu{
+    margin:auto;
+}
+.Item{
+    float: left;
+    padding: 10px;
+}
+.clr{
+    clear: both;
+}
+div.menu div.Item{
+      width: 25%;
+}
+.menu .Item img {
+    display: block;
+    width: 85%;
+    margin: 30px auto;
+    border-radius: 50%;
+    border: 3px solid orange;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+span{
+    color: rgba(255, 72, 0, 0.596) ;
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+  
